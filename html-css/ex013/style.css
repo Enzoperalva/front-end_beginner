@@ -1,0 +1,41 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.texto-engracado {
+  font-size: 3rem;
+  font-weight: bold;
+  white-space: nowrap;
+  position: absolute;
+  top: 40%;
+
+  animation: caosTotal 8s linear infinite;
+
+  color: yellow;
+  text-shadow: 3px 3px red, -3px -3px blue;
+}
+
+@keyframes caosTotal {
+  0% {
+    transform: translateX(-100vw) rotate(0deg) scale(1);
+  }
+  100% {
+    transform: translateX(100vw) rotate(720deg) scale(1.5);
+  }
+}
+@keyframes atravessa {
+  0% {
+    transform: translateX(-100vw) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(100vw) rotate(5deg);
+  }
+}
