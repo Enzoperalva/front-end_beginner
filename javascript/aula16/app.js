@@ -13,6 +13,6 @@ function adicionar() {
     } else {
         tarefas++
         status.innerText = `Você tem ${tarefas} tarefas, sendo 0 concluídas`
-        lista.innerHTML += `${addtask.value, excloe.value} <br>`
+        lista.innerHTML += `${addtask.value} <br>`
     }
 }
