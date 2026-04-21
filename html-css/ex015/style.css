@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+    font-style: oblique;
+}
+h2 {
+    color: red;
+}
+p {
+    color: rgb(97, 255, 136);
+    text-align: justify;
+}
+body {
+    background-color: burlywood;
+}
+.h1esp {
+    color: crimson;
+}
