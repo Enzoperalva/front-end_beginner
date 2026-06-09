@@ -1,6 +1,6 @@
-let pesoInput = document.getElementById('input-peso');
-let alturaInput = document.getElementById('input-altura');
-let formInput = document.getElementById('form');
+const pesoInput = document.getElementById('input-peso');
+const alturaInput = document.getElementById('input-altura');
+const formInput = document.getElementById('form');
 
 function recebeEventoForm(event){
     event.preventDefault()
